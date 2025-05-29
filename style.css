@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .feed-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    border: 2px solid green;
+    padding: 10px;
+  }
+  
+  .photo-card {
+    margin-top: 2rem;
+    border: 2px solid red;
+    background-color: white;
+  }
+  
+  .photo-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 2px solid blue;
+  }
+  
+  .photo-image img {
+    width: 100%;
+    display: block;
+    border: 2px solid blue;
+  }
+  
+  .photo-caption {
+    padding: 1rem;
+    border: 2px solid blue;
+    background-color: white;
+  }
+  
